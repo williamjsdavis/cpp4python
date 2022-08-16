@@ -1,8 +1,8 @@
-INFO    :  PreTeXt project found in `/home/moise/runestone/RunestoneServer/books/cpp4python`.
+INFO    :  PreTeXt project found in `/Users/pearcej/rsdocker/RunestoneServer/books/cpp4python`.
 WARNING :  Project's CLI version could not be detected from `requirements.txt`.
 WARNING :  Try `pretext init --refresh` to produce a compatible file.
 INFO    :  
-INFO    :  Now preparing local server to preview directory `/home/moise/runestone/RunestoneServer/books/cpp4python/output/web`.
+INFO    :  Now preparing local server to preview directory `/Users/pearcej/rsdocker/RunestoneServer/books/cpp4python/output/web`.
 INFO    :    (Reminder: use `pretext deploy` to deploy your built project to a public
 INFO    :    GitHub Pages site that can be shared with readers who cannot access your
 INFO    :    personal computer.)

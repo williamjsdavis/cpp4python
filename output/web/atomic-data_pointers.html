@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2022-08-10T16:19:17-04:00       *-->
+<!--*       on 2022-08-16T16:57:17-04:00       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -291,7 +291,7 @@ ptrN = &amp;varN;
 value in the code above.
 </pre>
 <p id="p-165">Let's extend the example above to output the value of a variable and its address in memory:</p>
-<blockquote class="blockquote" id="blockquote-4"><pre class="program"><code class="language-cpp">#include &lt;iostream&gt;
+<blockquote class="blockquote" id="blockquote-1"><pre class="program"><code class="language-cpp">#include &lt;iostream&gt;
 using namespace std;
 
 // demonstrates what happens when you dereference a pointer
@@ -325,7 +325,7 @@ int main( ) {
 </ul></div></div></article><p id="p-177">Compiling and running the above code will have the program output the value in varN, what is in ptrN (the memory address of varN), and what value is located at that memory location.</p>
 <p id="p-178">The second output sentence is the address of varN, which would most likely be different if you run the program on your machine.</p>
 <p id="p-179">WARNING: What happens if you forget the ampersand when assigning a value to a pointer and have the following instructions instead?</p>
-<blockquote class="blockquote" id="blockquote-5"><pre class="program"><code class="language-cpp">#include &lt;iostream&gt;
+<blockquote class="blockquote" id="blockquote-2"><pre class="program"><code class="language-cpp">#include &lt;iostream&gt;
 using namespace std;
 
 int main( ) {
@@ -354,7 +354,7 @@ int main( ) {
 </h3>
 <p id="p-184">Like <code class="code-inline tex2jax_ignore">None</code> in Python, the null pointer (<code class="code-inline tex2jax_ignore">nullptr</code>) in C++ points to nothing.  Older editions of C++ also used <code class="code-inline tex2jax_ignore">NULL</code> (all caps) or 0, but we will use the keyword <code class="code-inline tex2jax_ignore">nullptr</code> because the compiler can do better error handling with the keyword.  The null pointer is often used in conditions and/or in logical operations.</p>
 <p id="p-185">The following example demonstrates how the null pointer works. The variable ptrx initially has the address of x when it is declared. On the first iteration of the loop, it is assigned the value of <code class="code-inline tex2jax_ignore">nullptr</code>, which evaluates to a false value; thereby ending the loop:</p>
-<blockquote class="blockquote" id="blockquote-6"><pre class="program"><code class="language-cpp">#include &lt;iostream&gt;
+<blockquote class="blockquote" id="blockquote-3"><pre class="program"><code class="language-cpp">#include &lt;iostream&gt;
 using namespace std;
 
 //Shows the use of a Null pointer to represent "nothing".

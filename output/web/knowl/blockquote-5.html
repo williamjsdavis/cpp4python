@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2022-08-10T16:19:18-04:00       *-->
+<!--*       on 2022-08-16T16:57:20-04:00       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -15,26 +15,27 @@
 </head>
 <body class="ignore-math">
 <blockquote class="blockquote">
-<h4 class="heading"><span class="type">Quotation</span></h4>
+<h3 class="heading"><span class="type">Quotation</span></h3>
 <pre class="program"><code class="language-cpp">#include &lt;iostream&gt;
 using namespace std;
 
-int main( ) {
-    int varN = 100;
-    int *ptrN = varN; // Note no ampersand,
-        // ptrN now refers to memory position 100,
-        // whatever happens to be there!
-        // You might get an error or you might not!
+// function that multiplies a number by 2
+// except it does not anything it only outputs to the console
+void timesTwoVoid(int num) {
+  /* return type void which indicates
+     that an nothing is being returned */
+  cout&lt;&lt; num*2&lt;&lt;endl;
+}
 
-     cout &lt;&lt; "varN value: " &lt;&lt; varN &lt;&lt; endl;
-     cout &lt;&lt; "ptrN location: " &lt;&lt; ptrN &lt;&lt; endl;
-     cout &lt;&lt; "ptrN points to varN: " &lt;&lt; endl;
-     cout &lt;&lt; "dereference ptrN: " &lt;&lt; *ptrN &lt;&lt; endl;
+int main() {
+    /* return type int which indicates that
+       an integer is being returned */
+    timesTwoVoid(5);
 
-     return 0;
+    return 0;
 }
 </code></pre>
 </blockquote>
-<span class="incontext"><a href="atomic-data_pointers.html#blockquote-5" class="internal">in-context</a></span>
+<span class="incontext"><a href="functions_defining-c-functions.html#blockquote-5" class="internal">in-context</a></span>
 </body>
 </html>
